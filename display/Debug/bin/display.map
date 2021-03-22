@@ -1,0 +1,2282 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+                              ..\obj\dmd.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                              ..\obj\dmd.o (memset)
+c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+                              ..\obj\main.o (strcpy)
+c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+                              ..\obj\main.o (strlen)
+c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                              ..\obj\main.o (strncpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+pin_list            0x3c              ..\obj\gpio.o
+r3                  0x4               ..\obj\main.o
+r0                  0x4               ..\obj\main.o
+serial_buffer       0x400             ..\obj\main.o
+prv_dmd             0x820             ..\obj\dmd.o
+TimerPeriod1        0x2               ..\obj\dma.o
+TIM_OCInitStructure
+                    0x10              ..\obj\dma.o
+time                0x18              ..\obj\main.o
+dmd                 0x4               ..\obj\main.o
+lr                  0x4               ..\obj\main.o
+r2                  0x4               ..\obj\main.o
+pc                  0x4               ..\obj\main.o
+psr                 0x4               ..\obj\main.o
+pin                 0x4               ..\obj\main.o
+r12                 0x4               ..\obj\main.o
+data_buffer         0x400             ..\obj\main.o
+r1                  0x4               ..\obj\main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\stm32f10x_rtc.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_rtc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_rtc.o
+ .text.RTC_ITConfig
+                0x00000000       0x4c ..\obj\stm32f10x_rtc.o
+ .text.RTC_EnterConfigMode
+                0x00000000       0x20 ..\obj\stm32f10x_rtc.o
+ .text.RTC_ExitConfigMode
+                0x00000000       0x20 ..\obj\stm32f10x_rtc.o
+ .text.RTC_GetCounter
+                0x00000000       0x2c ..\obj\stm32f10x_rtc.o
+ .text.RTC_SetCounter
+                0x00000000       0x30 ..\obj\stm32f10x_rtc.o
+ .text.RTC_SetPrescaler
+                0x00000000       0x34 ..\obj\stm32f10x_rtc.o
+ .text.RTC_SetAlarm
+                0x00000000       0x30 ..\obj\stm32f10x_rtc.o
+ .text.RTC_GetDivider
+                0x00000000       0x38 ..\obj\stm32f10x_rtc.o
+ .text.RTC_WaitForLastTask
+                0x00000000       0x20 ..\obj\stm32f10x_rtc.o
+ .text.RTC_WaitForSynchro
+                0x00000000       0x30 ..\obj\stm32f10x_rtc.o
+ .text.RTC_GetFlagStatus
+                0x00000000       0x38 ..\obj\stm32f10x_rtc.o
+ .text.RTC_ClearFlag
+                0x00000000       0x2c ..\obj\stm32f10x_rtc.o
+ .text.RTC_GetITStatus
+                0x00000000       0x50 ..\obj\stm32f10x_rtc.o
+ .text.RTC_ClearITPendingBit
+                0x00000000       0x2c ..\obj\stm32f10x_rtc.o
+ .debug_info    0x00000000      0x43c ..\obj\stm32f10x_rtc.o
+ .debug_abbrev  0x00000000      0x18f ..\obj\stm32f10x_rtc.o
+ .debug_aranges
+                0x00000000       0x88 ..\obj\stm32f10x_rtc.o
+ .debug_ranges  0x00000000       0x78 ..\obj\stm32f10x_rtc.o
+ .debug_line    0x00000000      0x2b8 ..\obj\stm32f10x_rtc.o
+ .debug_str     0x00000000      0x3a2 ..\obj\stm32f10x_rtc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f10x_rtc.o
+ .debug_frame   0x00000000      0x214 ..\obj\stm32f10x_rtc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f10x_rtc.o
+ .text          0x00000000        0x0 ..\obj\dmd.o
+ .data          0x00000000        0x0 ..\obj\dmd.o
+ .bss           0x00000000        0x0 ..\obj\dmd.o
+ .text.drawCircle
+                0x00000000       0xa0 ..\obj\dmd.o
+ .text.drawCircleSub
+                0x00000000      0x224 ..\obj\dmd.o
+ .text.drawBox  0x00000000       0x70 ..\obj\dmd.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_tim.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_tim.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_tim.o
+ .text.TIM_DeInit
+                0x00000000      0x22c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC1Init
+                0x00000000      0x118 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC4Init
+                0x00000000       0xd0 ..\obj\stm32f10x_tim.o
+ .text.TIM_ICInit
+                0x00000000       0xa8 ..\obj\stm32f10x_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000       0xb8 ..\obj\stm32f10x_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x50 ..\obj\stm32f10x_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x34 ..\obj\stm32f10x_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x44 ..\obj\stm32f10x_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x30 ..\obj\stm32f10x_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_DMAConfig
+                0x00000000       0x28 ..\obj\stm32f10x_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000       0x24 ..\obj\stm32f10x_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x30 ..\obj\stm32f10x_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x5c ..\obj\stm32f10x_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x60 ..\obj\stm32f10x_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x54 ..\obj\stm32f10x_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000       0x28 ..\obj\stm32f10x_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x98 ..\obj\stm32f10x_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x54 ..\obj\stm32f10x_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x54 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0xac ..\obj\stm32f10x_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x40 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SetCounter
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetCompare1
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetCompare2
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetCompare3
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetCompare4
+                0x00000000       0x20 ..\obj\stm32f10x_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x3c ..\obj\stm32f10x_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetCapture1
+                0x00000000       0x18 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetCapture2
+                0x00000000       0x18 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetCapture3
+                0x00000000       0x18 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetCapture4
+                0x00000000       0x1c ..\obj\stm32f10x_tim.o
+ .text.TIM_GetCounter
+                0x00000000       0x18 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000       0x18 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000       0x38 ..\obj\stm32f10x_tim.o
+ .text.TIM_ClearFlag
+                0x00000000       0x20 ..\obj\stm32f10x_tim.o
+ .text.TIM_GetITStatus
+                0x00000000       0x54 ..\obj\stm32f10x_tim.o
+ .text.TI1_Config
+                0x00000000       0xe0 ..\obj\stm32f10x_tim.o
+ .text.TI2_Config
+                0x00000000       0xf4 ..\obj\stm32f10x_tim.o
+ .text.TI3_Config
+                0x00000000       0xec ..\obj\stm32f10x_tim.o
+ .text.TI4_Config
+                0x00000000       0xf8 ..\obj\stm32f10x_tim.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_dbgmcu.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_dbgmcu.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x00000000       0x18 ..\obj\stm32f10x_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x00000000       0x18 ..\obj\stm32f10x_dbgmcu.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f10x.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f10x.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_pwr.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_pwr.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x1c ..\obj\stm32f10x_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x20 ..\obj\stm32f10x_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000       0x20 ..\obj\stm32f10x_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x38 ..\obj\stm32f10x_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x20 ..\obj\stm32f10x_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x64 ..\obj\stm32f10x_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x3c ..\obj\stm32f10x_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x34 ..\obj\stm32f10x_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x24 ..\obj\stm32f10x_pwr.o
+ .debug_info    0x00000000      0x49f ..\obj\stm32f10x_pwr.o
+ .debug_abbrev  0x00000000      0x181 ..\obj\stm32f10x_pwr.o
+ .debug_aranges
+                0x00000000       0x60 ..\obj\stm32f10x_pwr.o
+ .debug_ranges  0x00000000       0x50 ..\obj\stm32f10x_pwr.o
+ .debug_line    0x00000000      0x269 ..\obj\stm32f10x_pwr.o
+ .debug_str     0x00000000      0x322 ..\obj\stm32f10x_pwr.o
+ .comment       0x00000000       0x6f ..\obj\stm32f10x_pwr.o
+ .debug_frame   0x00000000      0x164 ..\obj\stm32f10x_pwr.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f10x_pwr.o
+ .text          0x00000000        0x0 ..\obj\startup_stm32f10x_md.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f10x_md.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f10x_md.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xe4 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x18 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x28 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x34 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x18 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x34 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x18 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x4c ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xe0 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x84 ..\obj\stm32f10x_gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x1c ..\obj\stm32f10x_gpio.o
+ .text          0x00000000        0x0 ..\obj\main.o
+ .text.NVIC_SystemReset
+                0x00000000       0x28 ..\obj\main.o
+ .text.SplitString
+                0x00000000       0x7c ..\obj\main.o
+ .text.IsLeapYear
+                0x00000000       0x5c ..\obj\main.o
+ .text.DateInMonth
+                0x00000000       0x80 ..\obj\main.o
+ .text.DemoTask
+                0x00000000       0x44 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\font.o
+ .data          0x00000000        0x0 ..\obj\font.o
+ .bss           0x00000000        0x1 ..\obj\font.o
+ .text          0x00000000        0x0 ..\obj\timers.o
+ .data          0x00000000        0x0 ..\obj\timers.o
+ .bss           0x00000000        0x0 ..\obj\timers.o
+ .debug_info    0x00000000       0x75 ..\obj\timers.o
+ .debug_abbrev  0x00000000       0x24 ..\obj\timers.o
+ .debug_aranges
+                0x00000000       0x18 ..\obj\timers.o
+ .debug_line    0x00000000       0x1d ..\obj\timers.o
+ .debug_str     0x00000000      0x149 ..\obj\timers.o
+ .comment       0x00000000       0x6f ..\obj\timers.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\timers.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_crc.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_crc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_crc.o
+ .text.CRC_ResetDR
+                0x00000000       0x18 ..\obj\stm32f10x_crc.o
+ .text.CRC_CalcCRC
+                0x00000000       0x20 ..\obj\stm32f10x_crc.o
+ .text.CRC_CalcBlockCRC
+                0x00000000       0x44 ..\obj\stm32f10x_crc.o
+ .text.CRC_GetCRC
+                0x00000000       0x14 ..\obj\stm32f10x_crc.o
+ .text.CRC_SetIDRegister
+                0x00000000       0x20 ..\obj\stm32f10x_crc.o
+ .text.CRC_GetIDRegister
+                0x00000000       0x18 ..\obj\stm32f10x_crc.o
+ .debug_info    0x00000000      0x208 ..\obj\stm32f10x_crc.o
+ .debug_abbrev  0x00000000      0x114 ..\obj\stm32f10x_crc.o
+ .debug_aranges
+                0x00000000       0x48 ..\obj\stm32f10x_crc.o
+ .debug_ranges  0x00000000       0x38 ..\obj\stm32f10x_crc.o
+ .debug_line    0x00000000      0x20c ..\obj\stm32f10x_crc.o
+ .debug_str     0x00000000      0x23b ..\obj\stm32f10x_crc.o
+ .comment       0x00000000       0x6f ..\obj\stm32f10x_crc.o
+ .debug_frame   0x00000000       0xe8 ..\obj\stm32f10x_crc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f10x_crc.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_rcc.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x5c ..\obj\stm32f10x_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x5c ..\obj\stm32f10x_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 ..\obj\stm32f10x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x1c ..\obj\stm32f10x_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c ..\obj\stm32f10x_rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x1c ..\obj\stm32f10x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x38 ..\obj\stm32f10x_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 ..\obj\stm32f10x_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 ..\obj\stm32f10x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c ..\obj\stm32f10x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x34 ..\obj\stm32f10x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f10x_rcc.o
+ .text          0x00000000        0x0 ..\obj\gpio.o
+ .data          0x00000000        0x0 ..\obj\gpio.o
+ .text.GetPinState
+                0x00000000       0x50 ..\obj\gpio.o
+ .text.TogglePinState
+                0x00000000       0x1c ..\obj\gpio.o
+ .text          0x00000000        0x0 ..\obj\tasks.o
+ .data          0x00000000        0x0 ..\obj\tasks.o
+ .text.xTaskCreate
+                0x00000000       0x84 ..\obj\tasks.o
+ .text.prvInitialiseNewTask
+                0x00000000       0xd4 ..\obj\tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x00000000       0xd4 ..\obj\tasks.o
+ .text.vTaskDelayUntil
+                0x00000000       0xa0 ..\obj\tasks.o
+ .text.vTaskDelay
+                0x00000000       0x48 ..\obj\tasks.o
+ .rodata        0x00000000        0x5 ..\obj\tasks.o
+ .text.vTaskStartScheduler
+                0x00000000       0x6c ..\obj\tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x30 ..\obj\tasks.o
+ .text.vTaskSuspendAll
+                0x00000000       0x1c ..\obj\tasks.o
+ .text.xTaskResumeAll
+                0x00000000      0x11c ..\obj\tasks.o
+ .text.xTaskGetTickCount
+                0x00000000       0x1c ..\obj\tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x20 ..\obj\tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x14 ..\obj\tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x2c ..\obj\tasks.o
+ .text.vTaskPlaceOnEventList
+                0x00000000       0x2c ..\obj\tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x3c ..\obj\tasks.o
+ .text.xTaskRemoveFromEventList
+                0x00000000       0xa8 ..\obj\tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0x90 ..\obj\tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x2c ..\obj\tasks.o
+ .text.xTaskCheckForTimeOut
+                0x00000000       0x78 ..\obj\tasks.o
+ .text.vTaskMissedYield
+                0x00000000       0x18 ..\obj\tasks.o
+ .text.prvIdleTask
+                0x00000000       0x10 ..\obj\tasks.o
+ .text.prvInitialiseTaskLists
+                0x00000000       0x6c ..\obj\tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x00000000        0xc ..\obj\tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x30 ..\obj\tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0x90 ..\obj\tasks.o
+ .text.xTaskNotifyWait
+                0x00000000       0xb4 ..\obj\tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x10c ..\obj\tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x14c ..\obj\tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000       0xe4 ..\obj\tasks.o
+ .text.xTaskNotifyStateClear
+                0x00000000       0x4c ..\obj\tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x00000000       0xa8 ..\obj\tasks.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_usart.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_usart.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_usart.o
+ .text.USART_DeInit
+                0x00000000       0xb8 ..\obj\stm32f10x_usart.o
+ .text.USART_StructInit
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_ClockInit
+                0x00000000       0x58 ..\obj\stm32f10x_usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2c ..\obj\stm32f10x_usart.o
+ .text.USART_DMACmd
+                0x00000000       0x48 ..\obj\stm32f10x_usart.o
+ .text.USART_SetAddress
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_LINCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_SendData
+                0x00000000       0x24 ..\obj\stm32f10x_usart.o
+ .text.USART_SendBreak
+                0x00000000       0x24 ..\obj\stm32f10x_usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x3c ..\obj\stm32f10x_usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x44 ..\obj\stm32f10x_usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_IrDACmd
+                0x00000000       0x40 ..\obj\stm32f10x_usart.o
+ .text.USART_GetFlagStatus
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text.USART_ClearFlag
+                0x00000000       0x20 ..\obj\stm32f10x_usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0x38 ..\obj\stm32f10x_usart.o
+ .text          0x00000000        0x0 ..\obj\list.o
+ .data          0x00000000        0x0 ..\obj\list.o
+ .bss           0x00000000        0x0 ..\obj\list.o
+ .text.vListInitialise
+                0x00000000       0x40 ..\obj\list.o
+ .text.vListInitialiseItem
+                0x00000000       0x18 ..\obj\list.o
+ .text.vListInsert
+                0x00000000       0x70 ..\obj\list.o
+ .text          0x00000000        0x0 ..\obj\port.o
+ .data          0x00000000        0x4 ..\obj\port.o
+ .bss           0x00000000        0x0 ..\obj\port.o
+ .text.pxPortInitialiseStack
+                0x00000000       0x58 ..\obj\port.o
+ .text.prvTaskExitError
+                0x00000000       0x1c ..\obj\port.o
+ .text.prvPortStartFirstTask
+                0x00000000       0x20 ..\obj\port.o
+ .text.xPortStartScheduler
+                0x00000000       0x3c ..\obj\port.o
+ .text.vPortEndScheduler
+                0x00000000        0xc ..\obj\port.o
+ .text.vPortEnterCritical
+                0x00000000       0x30 ..\obj\port.o
+ .text.vPortExitCritical
+                0x00000000       0x30 ..\obj\port.o
+ .text.vPortSetupTimerInterrupt
+                0x00000000       0x24 ..\obj\port.o
+ .text          0x00000000        0x0 ..\obj\queue.o
+ .data          0x00000000        0x0 ..\obj\queue.o
+ .bss           0x00000000        0x0 ..\obj\queue.o
+ .text.xQueueGenericReset
+                0x00000000       0xb4 ..\obj\queue.o
+ .text.xQueueGenericCreate
+                0x00000000       0x58 ..\obj\queue.o
+ .text.prvInitialiseNewQueue
+                0x00000000       0x40 ..\obj\queue.o
+ .text.xQueueGenericSend
+                0x00000000      0x154 ..\obj\queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0xb0 ..\obj\queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0xa8 ..\obj\queue.o
+ .text.xQueueGenericReceive
+                0x00000000      0x184 ..\obj\queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0xac ..\obj\queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x64 ..\obj\queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x20 ..\obj\queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x2c ..\obj\queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x1c ..\obj\queue.o
+ .text.vQueueDelete
+                0x00000000       0x1c ..\obj\queue.o
+ .text.prvCopyDataToQueue
+                0x00000000       0xb8 ..\obj\queue.o
+ .text.prvCopyDataFromQueue
+                0x00000000       0x4c ..\obj\queue.o
+ .text.prvUnlockQueue
+                0x00000000       0xa4 ..\obj\queue.o
+ .text.prvIsQueueEmpty
+                0x00000000       0x2c ..\obj\queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x28 ..\obj\queue.o
+ .text.prvIsQueueFull
+                0x00000000       0x30 ..\obj\queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x2c ..\obj\queue.o
+ .debug_info    0x00000000      0xc07 ..\obj\queue.o
+ .debug_abbrev  0x00000000      0x1df ..\obj\queue.o
+ .debug_aranges
+                0x00000000       0xb8 ..\obj\queue.o
+ .debug_ranges  0x00000000       0xa8 ..\obj\queue.o
+ .debug_line    0x00000000      0x54b ..\obj\queue.o
+ .debug_str     0x00000000      0x645 ..\obj\queue.o
+ .comment       0x00000000       0x6f ..\obj\queue.o
+ .debug_frame   0x00000000      0x2ec ..\obj\queue.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\queue.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_dma.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_dma.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x54 ..\obj\stm32f10x_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000       0x1c ..\obj\stm32f10x_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0x18 ..\obj\stm32f10x_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x50 ..\obj\stm32f10x_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x34 ..\obj\stm32f10x_dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x50 ..\obj\stm32f10x_dma.o
+ .text          0x00000000        0x0 ..\obj\croutine.o
+ .data          0x00000000        0x0 ..\obj\croutine.o
+ .bss           0x00000000        0x0 ..\obj\croutine.o
+ .debug_info    0x00000000       0x75 ..\obj\croutine.o
+ .debug_abbrev  0x00000000       0x24 ..\obj\croutine.o
+ .debug_aranges
+                0x00000000       0x18 ..\obj\croutine.o
+ .debug_line    0x00000000       0x1d ..\obj\croutine.o
+ .debug_str     0x00000000      0x14b ..\obj\croutine.o
+ .comment       0x00000000       0x6f ..\obj\croutine.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\croutine.o
+ .text          0x00000000        0x0 ..\obj\event_groups.o
+ .data          0x00000000        0x0 ..\obj\event_groups.o
+ .bss           0x00000000        0x0 ..\obj\event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x30 ..\obj\event_groups.o
+ .text.xEventGroupSync
+                0x00000000       0xec ..\obj\event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000      0x110 ..\obj\event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x34 ..\obj\event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x44 ..\obj\event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000       0xdc ..\obj\event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x40 ..\obj\event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000       0x1c ..\obj\event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000       0x1c ..\obj\event_groups.o
+ .text.prvTestWaitCondition
+                0x00000000       0x44 ..\obj\event_groups.o
+ .debug_info    0x00000000      0x696 ..\obj\event_groups.o
+ .debug_abbrev  0x00000000      0x1a5 ..\obj\event_groups.o
+ .debug_aranges
+                0x00000000       0x68 ..\obj\event_groups.o
+ .debug_ranges  0x00000000       0x58 ..\obj\event_groups.o
+ .debug_line    0x00000000      0x30c ..\obj\event_groups.o
+ .debug_str     0x00000000      0x50c ..\obj\event_groups.o
+ .comment       0x00000000       0x6f ..\obj\event_groups.o
+ .debug_frame   0x00000000      0x180 ..\obj\event_groups.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\event_groups.o
+ .text          0x00000000        0x0 ..\obj\heap_1.o
+ .data          0x00000000        0x0 ..\obj\heap_1.o
+ .bss           0x00000000     0x2808 ..\obj\heap_1.o
+ .text.pvPortMalloc
+                0x00000000       0x8c ..\obj\heap_1.o
+ .text.vPortFree
+                0x00000000       0x14 ..\obj\heap_1.o
+ .text.vPortInitialiseBlocks
+                0x00000000       0x18 ..\obj\heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x1c ..\obj\heap_1.o
+ .debug_info    0x00000000      0x17f ..\obj\heap_1.o
+ .debug_abbrev  0x00000000       0xec ..\obj\heap_1.o
+ .debug_aranges
+                0x00000000       0x38 ..\obj\heap_1.o
+ .debug_ranges  0x00000000       0x28 ..\obj\heap_1.o
+ .debug_line    0x00000000      0x1f1 ..\obj\heap_1.o
+ .debug_str     0x00000000      0x202 ..\obj\heap_1.o
+ .comment       0x00000000       0x6f ..\obj\heap_1.o
+ .debug_frame   0x00000000       0x9c ..\obj\heap_1.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\heap_1.o
+ .text          0x00000000        0x0 ..\obj\dma.o
+ .data          0x00000000        0x0 ..\obj\dma.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_bkp.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_bkp.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_bkp.o
+ .text.BKP_DeInit
+                0x00000000       0x14 ..\obj\stm32f10x_bkp.o
+ .text.BKP_TamperPinLevelConfig
+                0x00000000       0x20 ..\obj\stm32f10x_bkp.o
+ .text.BKP_TamperPinCmd
+                0x00000000       0x20 ..\obj\stm32f10x_bkp.o
+ .text.BKP_ITConfig
+                0x00000000       0x20 ..\obj\stm32f10x_bkp.o
+ .text.BKP_RTCOutputConfig
+                0x00000000       0x38 ..\obj\stm32f10x_bkp.o
+ .text.BKP_SetRTCCalibrationValue
+                0x00000000       0x3c ..\obj\stm32f10x_bkp.o
+ .text.BKP_WriteBackupRegister
+                0x00000000       0x38 ..\obj\stm32f10x_bkp.o
+ .text.BKP_ReadBackupRegister
+                0x00000000       0x30 ..\obj\stm32f10x_bkp.o
+ .text.BKP_GetFlagStatus
+                0x00000000       0x18 ..\obj\stm32f10x_bkp.o
+ .text.BKP_ClearFlag
+                0x00000000       0x20 ..\obj\stm32f10x_bkp.o
+ .text.BKP_GetITStatus
+                0x00000000       0x18 ..\obj\stm32f10x_bkp.o
+ .text.BKP_ClearITPendingBit
+                0x00000000       0x20 ..\obj\stm32f10x_bkp.o
+ .debug_info    0x00000000      0x7a5 ..\obj\stm32f10x_bkp.o
+ .debug_abbrev  0x00000000      0x165 ..\obj\stm32f10x_bkp.o
+ .debug_aranges
+                0x00000000       0x78 ..\obj\stm32f10x_bkp.o
+ .debug_ranges  0x00000000       0x68 ..\obj\stm32f10x_bkp.o
+ .debug_line    0x00000000      0x273 ..\obj\stm32f10x_bkp.o
+ .debug_str     0x00000000      0x5b5 ..\obj\stm32f10x_bkp.o
+ .comment       0x00000000       0x6f ..\obj\stm32f10x_bkp.o
+ .debug_frame   0x00000000      0x1c4 ..\obj\stm32f10x_bkp.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\stm32f10x_bkp.o
+ .text          0x00000000        0x0 ..\obj\stm32f10x_iwdg.o
+ .data          0x00000000        0x0 ..\obj\stm32f10x_iwdg.o
+ .bss           0x00000000        0x0 ..\obj\stm32f10x_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x00000000       0x34 ..\obj\stm32f10x_iwdg.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00010000         xr
+ram              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20005000                _eram = 0x20005000
+
+.text           0x08000000     0x67bc
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.InitDmdModule
+                0x0800010c      0x10c ..\obj\dmd.o
+                0x0800010c                InitDmdModule
+ .text.ClearScreen
+                0x08000218       0x24 ..\obj\dmd.o
+                0x08000218                ClearScreen
+ .text.FlushScreen
+                0x0800023c       0x28 ..\obj\dmd.o
+                0x0800023c                FlushScreen
+ .text.writePixel
+                0x08000264      0x16c ..\obj\dmd.o
+                0x08000264                writePixel
+ .text.DisplayScanner
+                0x080003d0       0xf0 ..\obj\dmd.o
+                0x080003d0                DisplayScanner
+ .text.GetBaseAddress
+                0x080004c0       0x20 ..\obj\dmd.o
+                0x080004c0                GetBaseAddress
+ .text.drawString
+                0x080004e0       0x90 ..\obj\dmd.o
+                0x080004e0                drawString
+ .text.drawLine
+                0x08000570      0x128 ..\obj\dmd.o
+                0x08000570                drawLine
+ .text.drawFilledBox
+                0x08000698       0x48 ..\obj\dmd.o
+                0x08000698                drawFilledBox
+ .text.SelectFont
+                0x080006e0       0x28 ..\obj\dmd.o
+                0x080006e0                SelectFont
+ .text.drawChar
+                0x08000708      0x1d8 ..\obj\dmd.o
+                0x08000708                drawChar
+ .text.charWidth
+                0x080008e0       0x5c ..\obj\dmd.o
+                0x080008e0                charWidth
+ .text.StringWidth
+                0x0800093c       0x44 ..\obj\dmd.o
+                0x0800093c                StringWidth
+ .text.FontHeight
+                0x08000980       0x28 ..\obj\dmd.o
+                0x08000980                FontHeight
+ .text.TIM_TimeBaseInit
+                0x080009a8       0xf8 ..\obj\stm32f10x_tim.o
+                0x080009a8                TIM_TimeBaseInit
+ .text.TIM_OC2Init
+                0x08000aa0      0x110 ..\obj\stm32f10x_tim.o
+                0x08000aa0                TIM_OC2Init
+ .text.TIM_OC3Init
+                0x08000bb0      0x10c ..\obj\stm32f10x_tim.o
+                0x08000bb0                TIM_OC3Init
+ .text.TIM_Cmd  0x08000cbc       0x40 ..\obj\stm32f10x_tim.o
+                0x08000cbc                TIM_Cmd
+ .text.TIM_CtrlPWMOutputs
+                0x08000cfc       0x4c ..\obj\stm32f10x_tim.o
+                0x08000cfc                TIM_CtrlPWMOutputs
+ .text.TIM_ITConfig
+                0x08000d48       0x48 ..\obj\stm32f10x_tim.o
+                0x08000d48                TIM_ITConfig
+ .text.TIM_DMACmd
+                0x08000d90       0x48 ..\obj\stm32f10x_tim.o
+                0x08000d90                TIM_DMACmd
+ .text.TIM_ClearITPendingBit
+                0x08000dd8       0x20 ..\obj\stm32f10x_tim.o
+                0x08000dd8                TIM_ClearITPendingBit
+ .text.DBGMCU_Config
+                0x08000df8       0x3c ..\obj\stm32f10x_dbgmcu.o
+                0x08000df8                DBGMCU_Config
+ .text.SystemInit
+                0x08000e34       0x68 ..\obj\system_stm32f10x.o
+                0x08000e34                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08000e9c       0xd8 ..\obj\system_stm32f10x.o
+                0x08000e9c                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x08000f74        0xc ..\obj\system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x08000f80      0x100 ..\obj\system_stm32f10x.o
+ .text.Default_Reset_Handler
+                0x08001080       0x60 ..\obj\startup_stm32f10x_md.o
+                0x08001080                Default_Reset_Handler
+                0x08001080                Reset_Handler
+ .text.Default_Handler
+                0x080010e0        0x8 ..\obj\startup_stm32f10x_md.o
+                0x080010e0                EXTI2_IRQHandler
+                0x080010e0                DebugMon_Handler
+                0x080010e0                TIM1_CC_IRQHandler
+                0x080010e0                PVD_IRQHandler
+                0x080010e0                NMI_Handler
+                0x080010e0                EXTI3_IRQHandler
+                0x080010e0                EXTI0_IRQHandler
+                0x080010e0                I2C2_EV_IRQHandler
+                0x080010e0                UsageFault_Handler
+                0x080010e0                ADC1_2_IRQHandler
+                0x080010e0                SPI1_IRQHandler
+                0x080010e0                TAMPER_IRQHandler
+                0x080010e0                DMA1_Channel4_IRQHandler
+                0x080010e0                USART3_IRQHandler
+                0x080010e0                RTC_IRQHandler
+                0x080010e0                DMA1_Channel7_IRQHandler
+                0x080010e0                CAN1_RX1_IRQHandler
+                0x080010e0                TIM4_IRQHandler
+                0x080010e0                I2C1_EV_IRQHandler
+                0x080010e0                TIM3_IRQHandler
+                0x080010e0                RCC_IRQHandler
+                0x080010e0                TIM1_TRG_COM_IRQHandler
+                0x080010e0                DMA1_Channel1_IRQHandler
+                0x080010e0                EXTI15_10_IRQHandler
+                0x080010e0                EXTI9_5_IRQHandler
+                0x080010e0                SPI2_IRQHandler
+                0x080010e0                MemManage_Handler
+                0x080010e0                DMA1_Channel5_IRQHandler
+                0x080010e0                EXTI4_IRQHandler
+                0x080010e0                USB_LP_CAN1_RX0_IRQHandler
+                0x080010e0                USB_HP_CAN1_TX_IRQHandler
+                0x080010e0                DMA1_Channel3_IRQHandler
+                0x080010e0                WWDG_IRQHandler
+                0x080010e0                TIM2_IRQHandler
+                0x080010e0                TIM1_BRK_IRQHandler
+                0x080010e0                EXTI1_IRQHandler
+                0x080010e0                RTCAlarm_IRQHandler
+                0x080010e0                USART2_IRQHandler
+                0x080010e0                I2C2_ER_IRQHandler
+                0x080010e0                DMA1_Channel2_IRQHandler
+                0x080010e0                CAN1_SCE_IRQHandler
+                0x080010e0                FLASH_IRQHandler
+                0x080010e0                BusFault_Handler
+                0x080010e0                I2C1_ER_IRQHandler
+                0x080010e0                USBWakeUp_IRQHandler
+ .text.GPIO_Init
+                0x080010e8      0x178 ..\obj\stm32f10x_gpio.o
+                0x080010e8                GPIO_Init
+ .text.GPIO_SetBits
+                0x08001260       0x1c ..\obj\stm32f10x_gpio.o
+                0x08001260                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x0800127c       0x1c ..\obj\stm32f10x_gpio.o
+                0x0800127c                GPIO_ResetBits
+ .text.NVIC_EnableIRQ
+                0x08001298       0x30 ..\obj\main.o
+ .text.NVIC_SetPriority
+                0x080012c8       0x54 ..\obj\main.o
+ .text.HexToByte
+                0x0800131c      0x188 ..\obj\main.o
+                0x0800131c                HexToByte
+ .text.USART1_IRQHandler
+                0x080014a4       0xf8 ..\obj\main.o
+                0x080014a4                USART1_IRQHandler
+ .text.get_crc  0x0800159c       0x3c ..\obj\main.o
+                0x0800159c                get_crc
+ .text.Watchdog_Config
+                0x080015d8       0x40 ..\obj\main.o
+                0x080015d8                Watchdog_Config
+ .text.Watchdog_Reset_Detect
+                0x08001618       0x20 ..\obj\main.o
+                0x08001618                Watchdog_Reset_Detect
+ .text.prvGetRegistersFromStack
+                0x08001638       0x6c ..\obj\main.o
+                0x08001638                prvGetRegistersFromStack
+ .text.HardFault_Handler
+                0x080016a4       0x24 ..\obj\main.o
+                0x080016a4                HardFault_Handler
+ .text.main     0x080016c8      0x3fc ..\obj\main.o
+                0x080016c8                main
+ .text.FindFont
+                0x08001ac4       0xa4 ..\obj\font.o
+                0x08001ac4                FindFont
+ .text.RCC_GetClocksFreq
+                0x08001b68      0x160 ..\obj\stm32f10x_rcc.o
+                0x08001b68                RCC_GetClocksFreq
+ .text.RCC_AHBPeriphClockCmd
+                0x08001cc8       0x3c ..\obj\stm32f10x_rcc.o
+                0x08001cc8                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08001d04       0x3c ..\obj\stm32f10x_rcc.o
+                0x08001d04                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08001d40       0x3c ..\obj\stm32f10x_rcc.o
+                0x08001d40                RCC_APB1PeriphClockCmd
+ .text.RCC_GetFlagStatus
+                0x08001d7c       0x74 ..\obj\stm32f10x_rcc.o
+                0x08001d7c                RCC_GetFlagStatus
+ .text.RCC_ClearFlag
+                0x08001df0       0x1c ..\obj\stm32f10x_rcc.o
+                0x08001df0                RCC_ClearFlag
+ .text.DecodePortId
+                0x08001e0c       0x8c ..\obj\gpio.o
+                0x08001e0c                DecodePortId
+ .text.DecodePinId
+                0x08001e98       0xdc ..\obj\gpio.o
+                0x08001e98                DecodePinId
+ .text.DecodePinMode
+                0x08001f74       0x34 ..\obj\gpio.o
+                0x08001f74                DecodePinMode
+ .text.GpioClockMask
+                0x08001fa8       0x70 ..\obj\gpio.o
+                0x08001fa8                GpioClockMask
+ .text.InitPin  0x08002018       0x9c ..\obj\gpio.o
+                0x08002018                InitPin
+ .text.SetPinState
+                0x080020b4       0x6c ..\obj\gpio.o
+                0x080020b4                SetPinState
+ .text.xTaskIncrementTick
+                0x08002120      0x158 ..\obj\tasks.o
+                0x08002120                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x08002278       0x8c ..\obj\tasks.o
+                0x08002278                vTaskSwitchContext
+ .text.prvResetNextTaskUnblockTime
+                0x08002304       0x48 ..\obj\tasks.o
+ .text.USART_Init
+                0x0800234c      0x174 ..\obj\stm32f10x_usart.o
+                0x0800234c                USART_Init
+ .text.USART_Cmd
+                0x080024c0       0x40 ..\obj\stm32f10x_usart.o
+                0x080024c0                USART_Cmd
+ .text.USART_ITConfig
+                0x08002500       0x90 ..\obj\stm32f10x_usart.o
+                0x08002500                USART_ITConfig
+ .text.USART_ReceiveData
+                0x08002590       0x20 ..\obj\stm32f10x_usart.o
+                0x08002590                USART_ReceiveData
+ .text.USART_GetITStatus
+                0x080025b0       0xb4 ..\obj\stm32f10x_usart.o
+                0x080025b0                USART_GetITStatus
+ .text.vListInsertEnd
+                0x08002664       0x48 ..\obj\list.o
+                0x08002664                vListInsertEnd
+ .text.uxListRemove
+                0x080026ac       0x54 ..\obj\list.o
+                0x080026ac                uxListRemove
+ .text.SVC_Handler
+                0x08002700       0x3c ..\obj\port.o
+                0x08002700                SVC_Handler
+ *fill*         0x0800273c        0x4 
+ .text.PendSV_Handler
+                0x08002740       0x5c ..\obj\port.o
+                0x08002740                PendSV_Handler
+ .text.SysTick_Handler
+                0x0800279c       0x40 ..\obj\port.o
+                0x0800279c                SysTick_Handler
+ .text.DMA_DeInit
+                0x080027dc      0x178 ..\obj\stm32f10x_dma.o
+                0x080027dc                DMA_DeInit
+ .text.DMA_Init
+                0x08002954       0x7c ..\obj\stm32f10x_dma.o
+                0x08002954                DMA_Init
+ .text.DMA_Cmd  0x080029d0       0x38 ..\obj\stm32f10x_dma.o
+                0x080029d0                DMA_Cmd
+ .text.DMA_ITConfig
+                0x08002a08       0x3c ..\obj\stm32f10x_dma.o
+                0x08002a08                DMA_ITConfig
+ .text.DMA_ClearITPendingBit
+                0x08002a44       0x34 ..\obj\stm32f10x_dma.o
+                0x08002a44                DMA_ClearITPendingBit
+ .text.NVIC_EnableIRQ
+                0x08002a78       0x30 ..\obj\dma.o
+ .text.NVIC_SetPriority
+                0x08002aa8       0x54 ..\obj\dma.o
+ .text.InitDma  0x08002afc      0x16c ..\obj\dma.o
+                0x08002afc                InitDma
+ .text.DMA_config
+                0x08002c68       0x98 ..\obj\dma.o
+                0x08002c68                DMA_config
+ .text.DMA1_Channel6_IRQHandler
+                0x08002d00       0x28 ..\obj\dma.o
+                0x08002d00                DMA1_Channel6_IRQHandler
+ .text.TIM1_UP_IRQHandler
+                0x08002d28       0x24 ..\obj\dma.o
+                0x08002d28                TIM1_UP_IRQHandler
+ .text.IWDG_WriteAccessCmd
+                0x08002d4c       0x20 ..\obj\stm32f10x_iwdg.o
+                0x08002d4c                IWDG_WriteAccessCmd
+ .text.IWDG_SetPrescaler
+                0x08002d6c       0x20 ..\obj\stm32f10x_iwdg.o
+                0x08002d6c                IWDG_SetPrescaler
+ .text.IWDG_SetReload
+                0x08002d8c       0x20 ..\obj\stm32f10x_iwdg.o
+                0x08002d8c                IWDG_SetReload
+ .text.IWDG_ReloadCounter
+                0x08002dac       0x18 ..\obj\stm32f10x_iwdg.o
+                0x08002dac                IWDG_ReloadCounter
+ .text.IWDG_Enable
+                0x08002dc4       0x18 ..\obj\stm32f10x_iwdg.o
+                0x08002dc4                IWDG_Enable
+ .text          0x08002ddc       0xec c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+                0x08002ddc                memcpy
+ .text.memset   0x08002ec8       0x9c c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+                0x08002ec8                memset
+ .text.strcpy   0x08002f64       0xbc c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+                0x08002f64                strcpy
+ .text.strlen   0x08003020       0x5c c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+                0x08003020                strlen
+ .text.strncpy  0x0800307c       0x68 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                0x0800307c                strncpy
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x080030e4       0x85 ..\obj\main.o
+ *fill*         0x08003169        0x3 
+ .rodata        0x0800316c     0x3650 ..\obj\font.o
+                0x0800316c                char_7_32
+                0x08003170                char_7_33
+                0x08003174                char_7_34
+                0x0800317c                char_7_35
+                0x08003184                char_7_36
+                0x0800318c                char_7_37
+                0x08003194                char_7_38
+                0x0800319c                char_7_39
+                0x080031a0                char_7_40
+                0x080031a8                char_7_41
+                0x080031b0                char_7_42
+                0x080031b8                char_7_43
+                0x080031c0                char_7_44
+                0x080031c4                char_7_45
+                0x080031cc                char_7_46
+                0x080031d0                char_7_47
+                0x080031d8                char_7_48
+                0x080031e0                char_7_49
+                0x080031e8                char_7_50
+                0x080031f0                char_7_51
+                0x080031f8                char_7_52
+                0x08003200                char_7_53
+                0x08003208                char_7_54
+                0x08003210                char_7_55
+                0x08003218                char_7_56
+                0x08003220                char_7_57
+                0x08003228                char_7_58
+                0x0800322c                char_7_59
+                0x08003230                char_7_60
+                0x08003238                char_7_61
+                0x08003240                char_7_62
+                0x08003248                char_7_63
+                0x08003250                char_7_64
+                0x08003258                char_7_65
+                0x08003260                char_7_66
+                0x08003268                char_7_67
+                0x08003270                char_7_68
+                0x08003278                char_7_69
+                0x08003280                char_7_70
+                0x08003288                char_7_71
+                0x08003290                char_7_72
+                0x08003298                char_7_73
+                0x080032a0                char_7_74
+                0x080032a8                char_7_75
+                0x080032b0                char_7_76
+                0x080032b8                char_7_77
+                0x080032c0                char_7_78
+                0x080032c8                char_7_79
+                0x080032d0                char_7_80
+                0x080032d8                char_7_81
+                0x080032e0                char_7_82
+                0x080032e8                char_7_83
+                0x080032f0                char_7_84
+                0x080032f8                char_7_85
+                0x08003300                char_7_86
+                0x08003308                char_7_87
+                0x08003310                char_7_88
+                0x08003318                char_7_89
+                0x08003320                char_7_90
+                0x08003328                char_7_91
+                0x0800332c                char_7_92
+                0x08003334                char_7_93
+                0x08003338                char_7_94
+                0x08003340                char_7_95
+                0x08003348                char_7_96
+                0x0800334c                char_7_97
+                0x08003354                char_7_98
+                0x0800335c                char_7_99
+                0x08003364                char_7_100
+                0x0800336c                char_7_101
+                0x08003374                char_7_102
+                0x0800337c                char_7_103
+                0x08003384                char_7_104
+                0x0800338c                char_7_105
+                0x08003390                char_7_106
+                0x08003398                char_7_107
+                0x080033a0                char_7_108
+                0x080033a4                char_7_109
+                0x080033ac                char_7_110
+                0x080033b4                char_7_111
+                0x080033bc                char_7_112
+                0x080033c4                char_7_113
+                0x080033cc                char_7_114
+                0x080033d4                char_7_115
+                0x080033dc                char_7_116
+                0x080033e4                char_7_117
+                0x080033ec                char_7_118
+                0x080033f4                char_7_119
+                0x080033fc                char_7_120
+                0x08003404                char_7_121
+                0x0800340c                char_7_122
+                0x08003414                char_7_123
+                0x0800341c                char_7_124
+                0x08003420                char_7_125
+                0x08003428                char_7_126
+                0x08003430                char_7_127
+                0x08003434                font_7
+                0x080035b4                char_8_32
+                0x080035b8                char_8_33
+                0x080035bc                char_8_34
+                0x080035c4                char_8_35
+                0x080035d4                char_8_36
+                0x080035e0                char_8_37
+                0x080035f0                char_8_38
+                0x08003600                char_8_39
+                0x08003604                char_8_40
+                0x0800360c                char_8_41
+                0x08003614                char_8_42
+                0x08003620                char_8_43
+                0x0800362c                char_8_44
+                0x08003634                char_8_45
+                0x0800363c                char_8_46
+                0x08003644                char_8_47
+                0x08003650                char_8_48
+                0x08003660                char_8_49
+                0x08003668                char_8_50
+                0x08003674                char_8_51
+                0x08003680                char_8_52
+                0x08003690                char_8_53
+                0x0800369c                char_8_54
+                0x080036a8                char_8_55
+                0x080036b8                char_8_56
+                0x080036c4                char_8_57
+                0x080036d0                char_8_58
+                0x080036d4                char_8_59
+                0x080036dc                char_8_60
+                0x080036e8                char_8_61
+                0x080036f8                char_8_62
+                0x08003704                char_8_63
+                0x08003710                char_8_64
+                0x08003720                char_8_65
+                0x0800372c                char_8_66
+                0x08003738                char_8_67
+                0x08003744                char_8_68
+                0x08003750                char_8_69
+                0x0800375c                char_8_70
+                0x08003768                char_8_71
+                0x08003774                char_8_72
+                0x08003780                char_8_73
+                0x08003788                char_8_74
+                0x08003794                char_8_75
+                0x080037a0                char_8_76
+                0x080037ac                char_8_77
+                0x080037b8                char_8_78
+                0x080037c4                char_8_79
+                0x080037d0                char_8_80
+                0x080037dc                char_8_81
+                0x080037e8                char_8_82
+                0x080037f4                char_8_83
+                0x08003800                char_8_84
+                0x0800380c                char_8_85
+                0x08003818                char_8_86
+                0x08003824                char_8_87
+                0x08003830                char_8_88
+                0x0800383c                char_8_89
+                0x08003848                char_8_90
+                0x08003854                char_8_91
+                0x0800385c                char_8_92
+                0x08003864                char_8_93
+                0x0800386c                char_8_94
+                0x0800387c                char_8_95
+                0x08003888                char_8_96
+                0x08003890                char_8_97
+                0x0800389c                char_8_98
+                0x080038a8                char_8_99
+                0x080038b4                char_8_100
+                0x080038c0                char_8_101
+                0x080038cc                char_8_102
+                0x080038d8                char_8_103
+                0x080038e4                char_8_104
+                0x080038f0                char_8_105
+                0x080038f4                char_8_106
+                0x08003900                char_8_107
+                0x0800390c                char_8_108
+                0x08003910                char_8_109
+                0x08003920                char_8_110
+                0x0800392c                char_8_111
+                0x08003938                char_8_112
+                0x08003944                char_8_113
+                0x08003950                char_8_114
+                0x0800395c                char_8_115
+                0x08003968                char_8_116
+                0x08003974                char_8_117
+                0x08003980                char_8_118
+                0x0800398c                char_8_119
+                0x08003998                char_8_120
+                0x080039a4                char_8_121
+                0x080039b0                char_8_122
+                0x080039bc                char_8_123
+                0x080039c8                char_8_124
+                0x080039cc                char_8_125
+                0x080039d8                char_8_126
+                0x080039e4                char_8_127
+                0x080039e8                font_8
+                0x08003b68                char_9_32
+                0x08003b6c                char_9_33
+                0x08003b70                char_9_34
+                0x08003b78                char_9_35
+                0x08003b88                char_9_36
+                0x08003b94                char_9_37
+                0x08003ba4                char_9_38
+                0x08003bb4                char_9_39
+                0x08003bbc                char_9_40
+                0x08003bc4                char_9_41
+                0x08003bcc                char_9_42
+                0x08003bd8                char_9_43
+                0x08003be8                char_9_44
+                0x08003bf0                char_9_45
+                0x08003bf8                char_9_46
+                0x08003c00                char_9_47
+                0x08003c08                char_9_48
+                0x08003c14                char_9_49
+                0x08003c1c                char_9_50
+                0x08003c28                char_9_51
+                0x08003c38                char_9_52
+                0x08003c44                char_9_53
+                0x08003c50                char_9_54
+                0x08003c5c                char_9_55
+                0x08003c6c                char_9_56
+                0x08003c78                char_9_57
+                0x08003c84                char_9_58
+                0x08003c88                char_9_59
+                0x08003c90                char_9_60
+                0x08003c9c                char_9_61
+                0x08003ca8                char_9_62
+                0x08003cb4                char_9_63
+                0x08003cc0                char_9_64
+                0x08003cd4                char_9_65
+                0x08003ce0                char_9_66
+                0x08003cec                char_9_67
+                0x08003cf8                char_9_68
+                0x08003d04                char_9_69
+                0x08003d10                char_9_70
+                0x08003d1c                char_9_71
+                0x08003d28                char_9_72
+                0x08003d34                char_9_73
+                0x08003d3c                char_9_74
+                0x08003d48                char_9_75
+                0x08003d54                char_9_76
+                0x08003d60                char_9_77
+                0x08003d70                char_9_78
+                0x08003d7c                char_9_79
+                0x08003d88                char_9_80
+                0x08003d94                char_9_81
+                0x08003da0                char_9_82
+                0x08003dac                char_9_83
+                0x08003db8                char_9_84
+                0x08003dc4                char_9_85
+                0x08003dd0                char_9_86
+                0x08003ddc                char_9_87
+                0x08003de8                char_9_88
+                0x08003df8                char_9_89
+                0x08003e04                char_9_90
+                0x08003e14                char_9_91
+                0x08003e1c                char_9_92
+                0x08003e24                char_9_93
+                0x08003e2c                char_9_94
+                0x08003e3c                char_9_95
+                0x08003e48                char_9_96
+                0x08003e50                char_9_97
+                0x08003e5c                char_9_98
+                0x08003e68                char_9_99
+                0x08003e74                char_9_100
+                0x08003e80                char_9_101
+                0x08003e8c                char_9_102
+                0x08003e98                char_9_103
+                0x08003ea4                char_9_104
+                0x08003eb0                char_9_105
+                0x08003eb8                char_9_106
+                0x08003ec0                char_9_107
+                0x08003ecc                char_9_108
+                0x08003ed0                char_9_109
+                0x08003ee0                char_9_110
+                0x08003eec                char_9_111
+                0x08003ef8                char_9_112
+                0x08003f04                char_9_113
+                0x08003f10                char_9_114
+                0x08003f1c                char_9_115
+                0x08003f28                char_9_116
+                0x08003f34                char_9_117
+                0x08003f40                char_9_118
+                0x08003f4c                char_9_119
+                0x08003f58                char_9_120
+                0x08003f64                char_9_121
+                0x08003f70                char_9_122
+                0x08003f7c                char_9_123
+                0x08003f88                char_9_124
+                0x08003f8c                char_9_125
+                0x08003f98                char_9_126
+                0x08003fa8                char_9_127
+                0x08003fac                font_9
+                0x0800412c                char_10_32
+                0x08004130                char_10_33
+                0x08004138                char_10_34
+                0x08004144                char_10_35
+                0x08004154                char_10_36
+                0x08004164                char_10_37
+                0x08004178                char_10_38
+                0x0800418c                char_10_39
+                0x08004194                char_10_40
+                0x080041a0                char_10_41
+                0x080041ac                char_10_42
+                0x080041bc                char_10_43
+                0x080041cc                char_10_44
+                0x080041d4                char_10_45
+                0x080041dc                char_10_46
+                0x080041e4                char_10_47
+                0x080041f0                char_10_48
+                0x08004200                char_10_49
+                0x0800420c                char_10_50
+                0x0800421c                char_10_51
+                0x0800422c                char_10_52
+                0x0800423c                char_10_53
+                0x0800424c                char_10_54
+                0x0800425c                char_10_55
+                0x0800426c                char_10_56
+                0x0800427c                char_10_57
+                0x0800428c                char_10_58
+                0x08004294                char_10_59
+                0x0800429c                char_10_60
+                0x080042ac                char_10_61
+                0x080042bc                char_10_62
+                0x080042cc                char_10_63
+                0x080042d8                char_10_64
+                0x080042ec                char_10_65
+                0x080042fc                char_10_66
+                0x0800430c                char_10_67
+                0x0800431c                char_10_68
+                0x0800432c                char_10_69
+                0x0800433c                char_10_70
+                0x0800434c                char_10_71
+                0x0800435c                char_10_72
+                0x0800436c                char_10_73
+                0x08004378                char_10_74
+                0x08004388                char_10_75
+                0x08004398                char_10_76
+                0x080043a8                char_10_77
+                0x080043b8                char_10_78
+                0x080043c8                char_10_79
+                0x080043d8                char_10_80
+                0x080043e8                char_10_81
+                0x080043f8                char_10_82
+                0x08004408                char_10_83
+                0x08004418                char_10_84
+                0x08004428                char_10_85
+                0x08004438                char_10_86
+                0x08004448                char_10_87
+                0x08004458                char_10_88
+                0x08004468                char_10_89
+                0x0800447c                char_10_90
+                0x0800448c                char_10_91
+                0x08004494                char_10_92
+                0x080044a0                char_10_93
+                0x080044a8                char_10_94
+                0x080044b8                char_10_95
+                0x080044c8                char_10_96
+                0x080044d4                char_10_97
+                0x080044e4                char_10_98
+                0x080044f4                char_10_99
+                0x08004504                char_10_100
+                0x08004514                char_10_101
+                0x08004524                char_10_102
+                0x08004534                char_10_103
+                0x08004544                char_10_104
+                0x08004554                char_10_105
+                0x0800455c                char_10_106
+                0x0800456c                char_10_107
+                0x0800457c                char_10_108
+                0x08004588                char_10_109
+                0x08004598                char_10_110
+                0x080045a8                char_10_111
+                0x080045b8                char_10_112
+                0x080045c8                char_10_113
+                0x080045d8                char_10_114
+                0x080045e8                char_10_115
+                0x080045f8                char_10_116
+                0x08004608                char_10_117
+                0x08004618                char_10_118
+                0x08004628                char_10_119
+                0x08004638                char_10_120
+                0x08004648                char_10_121
+                0x08004658                char_10_122
+                0x08004668                char_10_123
+                0x08004674                char_10_124
+                0x0800467c                char_10_125
+                0x08004688                char_10_126
+                0x08004698                char_10_127
+                0x0800469c                font_10
+                0x0800481c                char_11_32
+                0x08004820                char_11_33
+                0x08004828                char_11_34
+                0x08004834                char_11_35
+                0x08004844                char_11_36
+                0x08004858                char_11_37
+                0x0800486c                char_11_38
+                0x08004880                char_11_39
+                0x08004888                char_11_40
+                0x08004894                char_11_41
+                0x080048a0                char_11_42
+                0x080048b0                char_11_43
+                0x080048c4                char_11_44
+                0x080048cc                char_11_45
+                0x080048d4                char_11_46
+                0x080048dc                char_11_47
+                0x080048e8                char_11_48
+                0x080048f8                char_11_49
+                0x08004904                char_11_50
+                0x08004914                char_11_51
+                0x08004924                char_11_52
+                0x08004934                char_11_53
+                0x08004944                char_11_54
+                0x08004954                char_11_55
+                0x08004964                char_11_56
+                0x08004974                char_11_57
+                0x08004984                char_11_58
+                0x0800498c                char_11_59
+                0x08004994                char_11_60
+                0x080049a4                char_11_61
+                0x080049b4                char_11_62
+                0x080049c4                char_11_63
+                0x080049d4                char_11_64
+                0x080049ec                char_11_65
+                0x080049fc                char_11_66
+                0x08004a0c                char_11_67
+                0x08004a1c                char_11_68
+                0x08004a2c                char_11_69
+                0x08004a3c                char_11_70
+                0x08004a4c                char_11_71
+                0x08004a5c                char_11_72
+                0x08004a6c                char_11_73
+                0x08004a78                char_11_74
+                0x08004a88                char_11_75
+                0x08004a98                char_11_76
+                0x08004aa8                char_11_77
+                0x08004abc                char_11_78
+                0x08004acc                char_11_79
+                0x08004adc                char_11_80
+                0x08004aec                char_11_81
+                0x08004afc                char_11_82
+                0x08004b0c                char_11_83
+                0x08004b1c                char_11_84
+                0x08004b30                char_11_85
+                0x08004b40                char_11_86
+                0x08004b54                char_11_87
+                0x08004b68                char_11_88
+                0x08004b78                char_11_89
+                0x08004b8c                char_11_90
+                0x08004b9c                char_11_91
+                0x08004ba4                char_11_92
+                0x08004bb0                char_11_93
+                0x08004bb8                char_11_94
+                0x08004bc8                char_11_95
+                0x08004bd4                char_11_96
+                0x08004be0                char_11_97
+                0x08004bf0                char_11_98
+                0x08004c00                char_11_99
+                0x08004c10                char_11_100
+                0x08004c20                char_11_101
+                0x08004c30                char_11_102
+                0x08004c40                char_11_103
+                0x08004c50                char_11_104
+                0x08004c60                char_11_105
+                0x08004c68                char_11_106
+                0x08004c78                char_11_107
+                0x08004c88                char_11_108
+                0x08004c90                char_11_109
+                0x08004ca4                char_11_110
+                0x08004cb4                char_11_111
+                0x08004cc4                char_11_112
+                0x08004cd4                char_11_113
+                0x08004ce4                char_11_114
+                0x08004cf4                char_11_115
+                0x08004d04                char_11_116
+                0x08004d10                char_11_117
+                0x08004d20                char_11_118
+                0x08004d30                char_11_119
+                0x08004d40                char_11_120
+                0x08004d50                char_11_121
+                0x08004d60                char_11_122
+                0x08004d70                char_11_123
+                0x08004d7c                char_11_124
+                0x08004d84                char_11_125
+                0x08004d90                char_11_126
+                0x08004da0                char_11_127
+                0x08004da4                font_11
+                0x08004f24                char_12_32
+                0x08004f28                char_12_33
+                0x08004f30                char_12_34
+                0x08004f3c                char_12_35
+                0x08004f50                char_12_36
+                0x08004f64                char_12_37
+                0x08004f78                char_12_38
+                0x08004f90                char_12_39
+                0x08004f98                char_12_40
+                0x08004fa4                char_12_41
+                0x08004fb0                char_12_42
+                0x08004fc4                char_12_43
+                0x08004fd8                char_12_44
+                0x08004fe0                char_12_45
+                0x08004fe8                char_12_46
+                0x08004ff0                char_12_47
+                0x08004ffc                char_12_48
+                0x08005010                char_12_49
+                0x0800501c                char_12_50
+                0x08005030                char_12_51
+                0x08005044                char_12_52
+                0x08005058                char_12_53
+                0x0800506c                char_12_54
+                0x08005080                char_12_55
+                0x08005094                char_12_56
+                0x080050a8                char_12_57
+                0x080050bc                char_12_58
+                0x080050c4                char_12_59
+                0x080050cc                char_12_60
+                0x080050dc                char_12_61
+                0x080050f0                char_12_62
+                0x08005100                char_12_63
+                0x08005110                char_12_64
+                0x08005128                char_12_65
+                0x0800513c                char_12_66
+                0x08005150                char_12_67
+                0x08005164                char_12_68
+                0x08005178                char_12_69
+                0x0800518c                char_12_70
+                0x080051a0                char_12_71
+                0x080051b4                char_12_72
+                0x080051c8                char_12_73
+                0x080051d4                char_12_74
+                0x080051e4                char_12_75
+                0x080051f8                char_12_76
+                0x0800520c                char_12_77
+                0x08005220                char_12_78
+                0x08005234                char_12_79
+                0x08005248                char_12_80
+                0x0800525c                char_12_81
+                0x08005270                char_12_82
+                0x08005280                char_12_83
+                0x08005294                char_12_84
+                0x080052a8                char_12_85
+                0x080052bc                char_12_86
+                0x080052d0                char_12_87
+                0x080052e4                char_12_88
+                0x080052f8                char_12_89
+                0x0800530c                char_12_90
+                0x08005320                char_12_91
+                0x0800532c                char_12_92
+                0x08005338                char_12_93
+                0x08005344                char_12_94
+                0x08005358                char_12_95
+                0x08005368                char_12_96
+                0x08005374                char_12_97
+                0x08005384                char_12_98
+                0x08005394                char_12_99
+                0x080053a4                char_12_100
+                0x080053b4                char_12_101
+                0x080053c8                char_12_102
+                0x080053d8                char_12_103
+                0x080053ec                char_12_104
+                0x080053fc                char_12_105
+                0x08005404                char_12_106
+                0x08005414                char_12_107
+                0x08005424                char_12_108
+                0x0800542c                char_12_109
+                0x08005440                char_12_110
+                0x08005454                char_12_111
+                0x08005468                char_12_112
+                0x08005478                char_12_113
+                0x08005488                char_12_114
+                0x0800549c                char_12_115
+                0x080054ac                char_12_116
+                0x080054bc                char_12_117
+                0x080054cc                char_12_118
+                0x080054e0                char_12_119
+                0x080054f4                char_12_120
+                0x08005508                char_12_121
+                0x08005518                char_12_122
+                0x0800552c                char_12_123
+                0x08005538                char_12_124
+                0x08005540                char_12_125
+                0x0800554c                char_12_126
+                0x08005564                char_12_127
+                0x08005568                font_12
+                0x080056e8                char_13_32
+                0x080056ec                char_13_33
+                0x080056f4                char_13_34
+                0x08005700                char_13_35
+                0x08005714                char_13_36
+                0x08005728                char_13_37
+                0x08005740                char_13_38
+                0x08005758                char_13_39
+                0x08005760                char_13_40
+                0x0800576c                char_13_41
+                0x08005778                char_13_42
+                0x08005788                char_13_43
+                0x0800579c                char_13_44
+                0x080057a4                char_13_45
+                0x080057b0                char_13_46
+                0x080057b8                char_13_47
+                0x080057c4                char_13_48
+                0x080057d8                char_13_49
+                0x080057e4                char_13_50
+                0x080057f8                char_13_51
+                0x0800580c                char_13_52
+                0x08005820                char_13_53
+                0x08005834                char_13_54
+                0x08005848                char_13_55
+                0x0800585c                char_13_56
+                0x08005870                char_13_57
+                0x08005884                char_13_58
+                0x0800588c                char_13_59
+                0x08005894                char_13_60
+                0x080058a4                char_13_61
+                0x080058b8                char_13_62
+                0x080058c8                char_13_63
+                0x080058d8                char_13_64
+                0x080058f4                char_13_65
+                0x08005908                char_13_66
+                0x0800591c                char_13_67
+                0x08005930                char_13_68
+                0x08005944                char_13_69
+                0x08005958                char_13_70
+                0x0800596c                char_13_71
+                0x08005980                char_13_72
+                0x08005994                char_13_73
+                0x080059a0                char_13_74
+                0x080059b4                char_13_75
+                0x080059c8                char_13_76
+                0x080059dc                char_13_77
+                0x080059f0                char_13_78
+                0x08005a04                char_13_79
+                0x08005a18                char_13_80
+                0x08005a2c                char_13_81
+                0x08005a40                char_13_82
+                0x08005a54                char_13_83
+                0x08005a68                char_13_84
+                0x08005a7c                char_13_85
+                0x08005a90                char_13_86
+                0x08005aa4                char_13_87
+                0x08005ab8                char_13_88
+                0x08005acc                char_13_89
+                0x08005ae0                char_13_90
+                0x08005af4                char_13_91
+                0x08005afc                char_13_92
+                0x08005b08                char_13_93
+                0x08005b10                char_13_94
+                0x08005b28                char_13_95
+                0x08005b38                char_13_96
+                0x08005b44                char_13_97
+                0x08005b58                char_13_98
+                0x08005b6c                char_13_99
+                0x08005b7c                char_13_100
+                0x08005b90                char_13_101
+                0x08005ba4                char_13_102
+                0x08005bb4                char_13_103
+                0x08005bc8                char_13_104
+                0x08005bdc                char_13_105
+                0x08005be4                char_13_106
+                0x08005bf4                char_13_107
+                0x08005c04                char_13_108
+                0x08005c0c                char_13_109
+                0x08005c20                char_13_110
+                0x08005c34                char_13_111
+                0x08005c48                char_13_112
+                0x08005c5c                char_13_113
+                0x08005c70                char_13_114
+                0x08005c84                char_13_115
+                0x08005c94                char_13_116
+                0x08005ca4                char_13_117
+                0x08005cb8                char_13_118
+                0x08005ccc                char_13_119
+                0x08005ce0                char_13_120
+                0x08005cf4                char_13_121
+                0x08005d08                char_13_122
+                0x08005d18                char_13_123
+                0x08005d24                char_13_124
+                0x08005d2c                char_13_125
+                0x08005d38                char_13_126
+                0x08005d4c                char_13_127
+                0x08005d50                font_13
+                0x08005ed0                char_15_32
+                0x08005ed4                char_15_33
+                0x08005edc                char_15_34
+                0x08005eec                char_15_35
+                0x08005f04                char_15_36
+                0x08005f1c                char_15_37
+                0x08005f38                char_15_38
+                0x08005f54                char_15_39
+                0x08005f5c                char_15_40
+                0x08005f6c                char_15_41
+                0x08005f7c                char_15_42
+                0x08005f94                char_15_43
+                0x08005fac                char_15_44
+                0x08005fb4                char_15_45
+                0x08005fc0                char_15_46
+                0x08005fc8                char_15_47
+                0x08005fd8                char_15_48
+                0x08005ff0                char_15_49
+                0x08006000                char_15_50
+                0x08006014                char_15_51
+                0x0800602c                char_15_52
+                0x08006044                char_15_53
+                0x0800605c                char_15_54
+                0x08006074                char_15_55
+                0x0800608c                char_15_56
+                0x080060a4                char_15_57
+                0x080060bc                char_15_58
+                0x080060c4                char_15_59
+                0x080060d0                char_15_60
+                0x080060e0                char_15_61
+                0x080060f8                char_15_62
+                0x0800610c                char_15_63
+                0x08006120                char_15_64
+                0x0800613c                char_15_65
+                0x08006154                char_15_66
+                0x0800616c                char_15_67
+                0x08006184                char_15_68
+                0x0800619c                char_15_69
+                0x080061b0                char_15_70
+                0x080061c4                char_15_71
+                0x080061dc                char_15_72
+                0x080061f4                char_15_73
+                0x08006204                char_15_74
+                0x0800621c                char_15_75
+                0x08006234                char_15_76
+                0x0800624c                char_15_77
+                0x08006264                char_15_78
+                0x0800627c                char_15_79
+                0x08006294                char_15_80
+                0x080062a8                char_15_81
+                0x080062c0                char_15_82
+                0x080062d4                char_15_83
+                0x080062ec                char_15_84
+                0x08006300                char_15_85
+                0x08006318                char_15_86
+                0x08006330                char_15_87
+                0x08006348                char_15_88
+                0x08006360                char_15_89
+                0x08006378                char_15_90
+                0x08006390                char_15_91
+                0x0800639c                char_15_92
+                0x080063ac                char_15_93
+                0x080063b8                char_15_94
+                0x080063d0                char_15_95
+                0x080063e4                char_15_96
+                0x080063f0                char_15_97
+                0x08006404                char_15_98
+                0x0800641c                char_15_99
+                0x08006430                char_15_100
+                0x08006448                char_15_101
+                0x08006460                char_15_102
+                0x08006474                char_15_103
+                0x08006488                char_15_104
+                0x0800649c                char_15_105
+                0x080064a4                char_15_106
+                0x080064b8                char_15_107
+                0x080064cc                char_15_108
+                0x080064d4                char_15_109
+                0x080064ec                char_15_110
+                0x08006500                char_15_111
+                0x08006514                char_15_112
+                0x08006528                char_15_113
+                0x0800653c                char_15_114
+                0x08006550                char_15_115
+                0x08006564                char_15_116
+                0x0800657c                char_15_117
+                0x08006590                char_15_118
+                0x080065a8                char_15_119
+                0x080065c0                char_15_120
+                0x080065d8                char_15_121
+                0x080065ec                char_15_122
+                0x08006600                char_15_123
+                0x0800660c                char_15_124
+                0x08006614                char_15_125
+                0x08006620                char_15_126
+                0x08006638                char_15_127
+                0x0800663c                font_15
+ *(.eh_fram e*)
+
+.glue_7         0x080067bc        0x0
+ .glue_7        0x080067bc        0x0 linker stubs
+
+.glue_7t        0x080067bc        0x0
+ .glue_7t       0x080067bc        0x0 linker stubs
+
+.vfp11_veneer   0x080067bc        0x0
+ .vfp11_veneer  0x080067bc        0x0 linker stubs
+
+.v4_bx          0x080067bc        0x0
+ .v4_bx         0x080067bc        0x0 linker stubs
+
+.iplt           0x080067bc        0x0
+ .iplt          0x080067bc        0x0 ..\obj\stm32f10x_rtc.o
+
+.rel.dyn        0x080067bc        0x0
+ .rel.iplt      0x080067bc        0x0 ..\obj\stm32f10x_rtc.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080067bc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x080067bc                __exidx_end = .
+                0x080067bc                __etext = .
+                0x080067bc                _sidata = __etext
+
+.data           0x20000000       0x70 load address 0x080067bc
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x14 ..\obj\system_stm32f10x.o
+                0x20000000                SystemCoreClock
+                0x20000004                AHBPrescTable
+ .data          0x20000014       0x48 ..\obj\main.o
+                0x20000014                temp
+                0x20000018                company_name
+                0x20000020                company_title
+                0x20000028                MonthNameList
+ .data          0x2000005c       0x14 ..\obj\stm32f10x_rcc.o
+                0x20000070                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                0x20000070                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                0x20000070                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000070                . = ALIGN (0x4)
+                0x20000070                __data_end__ = .
+                0x20000070                _edata = __data_end__
+
+.igot.plt       0x20000070        0x0 load address 0x0800682c
+ .igot.plt      0x20000070        0x0 ..\obj\stm32f10x_rtc.o
+
+.bss            0x20000070     0x1170 load address 0x0800682c
+                0x20000070                . = ALIGN (0x4)
+                0x20000070                __bss_start__ = .
+                0x20000070                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000070        0x8 ..\obj\main.o
+                0x20000070                flag
+                0x20000074                serial_index
+ .bss           0x20000078        0x4 ..\obj\gpio.o
+                0x20000078                list_indexer
+ .bss           0x2000007c       0xb0 ..\obj\tasks.o
+                0x2000007c                pxCurrentTCB
+ .bss           0x2000012c        0x2 ..\obj\dma.o
+                0x2000012c                TimerPeriod
+ *(COMMON)
+ *fill*         0x2000012e        0x2 
+ COMMON         0x20000130      0x820 ..\obj\dmd.o
+                0x20000130                prv_dmd
+ COMMON         0x20000950      0x840 ..\obj\main.o
+                0x20000950                r3
+                0x20000954                r0
+                0x20000958                serial_buffer
+                0x20000d58                time
+                0x20000d70                dmd
+                0x20000d74                lr
+                0x20000d78                r2
+                0x20000d7c                pc
+                0x20000d80                psr
+                0x20000d84                pin
+                0x20000d88                r12
+                0x20000d8c                data_buffer
+                0x2000118c                r1
+ COMMON         0x20001190       0x3c ..\obj\gpio.o
+                0x20001190                pin_list
+ COMMON         0x200011cc       0x14 ..\obj\dma.o
+                0x200011cc                TimerPeriod1
+                0x200011d0                TIM_OCInitStructure
+                0x200011e0                . = ALIGN (0x4)
+                0x200011e0                __bss_end__ = .
+                0x200011e0                _ebss = __bss_end__
+
+.heap           0x200011e0        0x0
+                0x200011e0                __end__ = .
+                0x200011e0                _end = __end__
+                0x200011e0                end = __end__
+ *(.heap*)
+                0x200011e0                __HeapLimit = .
+
+.co_stack       0x200011e0      0x400 load address 0x0800799c
+                0x200011e0                . = ALIGN (0x8)
+ *(.co_stack .co_stack.*)
+ .co_stack      0x200011e0      0x400 ..\obj\startup_stm32f10x_md.o
+                0x200011e0                pulStack
+                0x20005000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x20004c00                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\stm32f10x_rtc.o
+LOAD ..\obj\dmd.o
+LOAD ..\obj\stm32f10x_tim.o
+LOAD ..\obj\stm32f10x_dbgmcu.o
+LOAD ..\obj\system_stm32f10x.o
+LOAD ..\obj\stm32f10x_pwr.o
+LOAD ..\obj\startup_stm32f10x_md.o
+LOAD ..\obj\stm32f10x_gpio.o
+LOAD ..\obj\main.o
+LOAD ..\obj\font.o
+LOAD ..\obj\timers.o
+LOAD ..\obj\stm32f10x_crc.o
+LOAD ..\obj\stm32f10x_rcc.o
+LOAD ..\obj\gpio.o
+LOAD ..\obj\tasks.o
+LOAD ..\obj\stm32f10x_usart.o
+LOAD ..\obj\list.o
+LOAD ..\obj\port.o
+LOAD ..\obj\queue.o
+LOAD ..\obj\stm32f10x_dma.o
+LOAD ..\obj\croutine.o
+LOAD ..\obj\event_groups.o
+LOAD ..\obj\heap_1.o
+LOAD ..\obj\dma.o
+LOAD ..\obj\stm32f10x_bkp.o
+LOAD ..\obj\stm32f10x_iwdg.o
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(display.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xc8e7
+ .debug_info    0x00000000      0xba3 ..\obj\dmd.o
+ .debug_info    0x00000ba3     0x1c60 ..\obj\stm32f10x_tim.o
+ .debug_info    0x00002803      0x162 ..\obj\stm32f10x_dbgmcu.o
+ .debug_info    0x00002965      0x49c ..\obj\system_stm32f10x.o
+ .debug_info    0x00002e01       0xee ..\obj\startup_stm32f10x_md.o
+ .debug_info    0x00002eef      0x6f6 ..\obj\stm32f10x_gpio.o
+ .debug_info    0x000035e5      0xe55 ..\obj\main.o
+ .debug_info    0x0000443a     0x44cd ..\obj\font.o
+ .debug_info    0x00008907      0x8a3 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x000091aa      0x5bb ..\obj\gpio.o
+ .debug_info    0x00009765     0x1044 ..\obj\tasks.o
+ .debug_info    0x0000a7a9      0x9f0 ..\obj\stm32f10x_usart.o
+ .debug_info    0x0000b199      0x2a0 ..\obj\list.o
+ .debug_info    0x0000b439      0x2d2 ..\obj\port.o
+ .debug_info    0x0000b70b      0x47b ..\obj\stm32f10x_dma.o
+ .debug_info    0x0000bb86      0xb53 ..\obj\dma.o
+ .debug_info    0x0000c6d9      0x20e ..\obj\stm32f10x_iwdg.o
+
+.debug_abbrev   0x00000000     0x1b02
+ .debug_abbrev  0x00000000      0x2cf ..\obj\dmd.o
+ .debug_abbrev  0x000002cf      0x1b2 ..\obj\stm32f10x_tim.o
+ .debug_abbrev  0x00000481       0xe0 ..\obj\stm32f10x_dbgmcu.o
+ .debug_abbrev  0x00000561      0x14e ..\obj\system_stm32f10x.o
+ .debug_abbrev  0x000006af       0xa7 ..\obj\startup_stm32f10x_md.o
+ .debug_abbrev  0x00000756      0x1cc ..\obj\stm32f10x_gpio.o
+ .debug_abbrev  0x00000922      0x31c ..\obj\main.o
+ .debug_abbrev  0x00000c3e       0xab ..\obj\font.o
+ .debug_abbrev  0x00000ce9      0x1bc ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000ea5      0x19d ..\obj\gpio.o
+ .debug_abbrev  0x00001042      0x28f ..\obj\tasks.o
+ .debug_abbrev  0x000012d1      0x164 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x00001435       0xbc ..\obj\list.o
+ .debug_abbrev  0x000014f1      0x1c1 ..\obj\port.o
+ .debug_abbrev  0x000016b2      0x157 ..\obj\stm32f10x_dma.o
+ .debug_abbrev  0x00001809      0x1f6 ..\obj\dma.o
+ .debug_abbrev  0x000019ff      0x103 ..\obj\stm32f10x_iwdg.o
+
+.debug_aranges  0x00000000      0xac0
+ .debug_aranges
+                0x00000000       0xa0 ..\obj\dmd.o
+ .debug_aranges
+                0x000000a0      0x2f0 ..\obj\stm32f10x_tim.o
+ .debug_aranges
+                0x00000390       0x30 ..\obj\stm32f10x_dbgmcu.o
+ .debug_aranges
+                0x000003c0       0x38 ..\obj\system_stm32f10x.o
+ .debug_aranges
+                0x000003f8       0x28 ..\obj\startup_stm32f10x_md.o
+ .debug_aranges
+                0x00000420       0xa8 ..\obj\stm32f10x_gpio.o
+ .debug_aranges
+                0x000004c8       0x90 ..\obj\main.o
+ .debug_aranges
+                0x00000558       0x20 ..\obj\font.o
+ .debug_aranges
+                0x00000578      0x118 ..\obj\stm32f10x_rcc.o
+ .debug_aranges
+                0x00000690       0x58 ..\obj\gpio.o
+ .debug_aranges
+                0x000006e8      0x128 ..\obj\tasks.o
+ .debug_aranges
+                0x00000810      0x100 ..\obj\stm32f10x_usart.o
+ .debug_aranges
+                0x00000910       0x40 ..\obj\list.o
+ .debug_aranges
+                0x00000950       0x70 ..\obj\port.o
+ .debug_aranges
+                0x000009c0       0x70 ..\obj\stm32f10x_dma.o
+ .debug_aranges
+                0x00000a30       0x48 ..\obj\dma.o
+ .debug_aranges
+                0x00000a78       0x48 ..\obj\stm32f10x_iwdg.o
+
+.debug_ranges   0x00000000      0x9f8
+ .debug_ranges  0x00000000       0xc0 ..\obj\dmd.o
+ .debug_ranges  0x000000c0      0x2e0 ..\obj\stm32f10x_tim.o
+ .debug_ranges  0x000003a0       0x20 ..\obj\stm32f10x_dbgmcu.o
+ .debug_ranges  0x000003c0       0x28 ..\obj\system_stm32f10x.o
+ .debug_ranges  0x000003e8       0x18 ..\obj\startup_stm32f10x_md.o
+ .debug_ranges  0x00000400       0x98 ..\obj\stm32f10x_gpio.o
+ .debug_ranges  0x00000498       0x98 ..\obj\main.o
+ .debug_ranges  0x00000530       0x10 ..\obj\font.o
+ .debug_ranges  0x00000540      0x108 ..\obj\stm32f10x_rcc.o
+ .debug_ranges  0x00000648       0x48 ..\obj\gpio.o
+ .debug_ranges  0x00000690      0x118 ..\obj\tasks.o
+ .debug_ranges  0x000007a8       0xf0 ..\obj\stm32f10x_usart.o
+ .debug_ranges  0x00000898       0x30 ..\obj\list.o
+ .debug_ranges  0x000008c8       0x60 ..\obj\port.o
+ .debug_ranges  0x00000928       0x60 ..\obj\stm32f10x_dma.o
+ .debug_ranges  0x00000988       0x38 ..\obj\dma.o
+ .debug_ranges  0x000009c0       0x38 ..\obj\stm32f10x_iwdg.o
+
+.debug_line     0x00000000     0x3dbc
+ .debug_line    0x00000000      0x47c ..\obj\dmd.o
+ .debug_line    0x0000047c      0xb34 ..\obj\stm32f10x_tim.o
+ .debug_line    0x00000fb0      0x1c8 ..\obj\stm32f10x_dbgmcu.o
+ .debug_line    0x00001178      0x214 ..\obj\system_stm32f10x.o
+ .debug_line    0x0000138c       0x9a ..\obj\startup_stm32f10x_md.o
+ .debug_line    0x00001426      0x3b4 ..\obj\stm32f10x_gpio.o
+ .debug_line    0x000017da      0x488 ..\obj\main.o
+ .debug_line    0x00001c62      0x1d1 ..\obj\font.o
+ .debug_line    0x00001e33      0x4af ..\obj\stm32f10x_rcc.o
+ .debug_line    0x000022e2      0x2c7 ..\obj\gpio.o
+ .debug_line    0x000025a9      0x718 ..\obj\tasks.o
+ .debug_line    0x00002cc1      0x496 ..\obj\stm32f10x_usart.o
+ .debug_line    0x00003157      0x220 ..\obj\list.o
+ .debug_line    0x00003377      0x292 ..\obj\port.o
+ .debug_line    0x00003609      0x31c ..\obj\stm32f10x_dma.o
+ .debug_line    0x00003925      0x29a ..\obj\dma.o
+ .debug_line    0x00003bbf      0x1fd ..\obj\stm32f10x_iwdg.o
+
+.debug_str      0x00000000     0x5591
+ .debug_str     0x00000000      0x5b9 ..\obj\dmd.o
+                                0x63f (size before relaxing)
+ .debug_str     0x000005b9      0xbff ..\obj\stm32f10x_tim.o
+                                0xddd (size before relaxing)
+ .debug_str     0x000011b8       0x8e ..\obj\stm32f10x_dbgmcu.o
+                                0x1f2 (size before relaxing)
+ .debug_str     0x00001246      0x16a ..\obj\system_stm32f10x.o
+                                0x2ef (size before relaxing)
+ .debug_str     0x000013b0       0xa8 ..\obj\startup_stm32f10x_md.o
+                                0x13f (size before relaxing)
+ .debug_str     0x00001458      0x259 ..\obj\stm32f10x_gpio.o
+                                0x519 (size before relaxing)
+ .debug_str     0x000016b1      0x5fb ..\obj\main.o
+                                0x9ac (size before relaxing)
+ .debug_str     0x00001cac     0x2153 ..\obj\font.o
+                               0x2289 (size before relaxing)
+ .debug_str     0x00003dff      0x3e0 ..\obj\stm32f10x_rcc.o
+                                0x61a (size before relaxing)
+ .debug_str     0x000041df      0x13e ..\obj\gpio.o
+                                0x4b9 (size before relaxing)
+ .debug_str     0x0000431d      0x92c ..\obj\tasks.o
+                                0xad2 (size before relaxing)
+ .debug_str     0x00004c49      0x3a1 ..\obj\stm32f10x_usart.o
+                                0x690 (size before relaxing)
+ .debug_str     0x00004fea       0xc1 ..\obj\list.o
+                                0x29a (size before relaxing)
+ .debug_str     0x000050ab      0x127 ..\obj\port.o
+                                0x2ea (size before relaxing)
+ .debug_str     0x000051d2      0x214 ..\obj\stm32f10x_dma.o
+                                0x3b7 (size before relaxing)
+ .debug_str     0x000053e6       0xd3 ..\obj\dma.o
+                                0xa07 (size before relaxing)
+ .debug_str     0x000054b9       0xd8 ..\obj\stm32f10x_iwdg.o
+                                0x25c (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ..\obj\dmd.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_tim.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_dbgmcu.o
+ .comment       0x0000006e       0x6f ..\obj\system_stm32f10x.o
+ .comment       0x0000006e       0x6f ..\obj\startup_stm32f10x_md.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_gpio.o
+ .comment       0x0000006e       0x6f ..\obj\main.o
+ .comment       0x0000006e       0x6f ..\obj\font.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_rcc.o
+ .comment       0x0000006e       0x6f ..\obj\gpio.o
+ .comment       0x0000006e       0x6f ..\obj\tasks.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_usart.o
+ .comment       0x0000006e       0x6f ..\obj\list.o
+ .comment       0x0000006e       0x6f ..\obj\port.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_dma.o
+ .comment       0x0000006e       0x6f ..\obj\dma.o
+ .comment       0x0000006e       0x6f ..\obj\stm32f10x_iwdg.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\dmd.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\stm32f10x_tim.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\stm32f10x_dbgmcu.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\system_stm32f10x.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\startup_stm32f10x_md.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\stm32f10x_gpio.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\font.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\stm32f10x_rcc.o
+ .ARM.attributes
+                0x000001cb       0x33 ..\obj\gpio.o
+ .ARM.attributes
+                0x000001fe       0x33 ..\obj\tasks.o
+ .ARM.attributes
+                0x00000231       0x33 ..\obj\stm32f10x_usart.o
+ .ARM.attributes
+                0x00000264       0x33 ..\obj\list.o
+ .ARM.attributes
+                0x00000297       0x33 ..\obj\port.o
+ .ARM.attributes
+                0x000002ca       0x33 ..\obj\stm32f10x_dma.o
+ .ARM.attributes
+                0x000002fd       0x33 ..\obj\dma.o
+ .ARM.attributes
+                0x00000330       0x33 ..\obj\stm32f10x_iwdg.o
+ .ARM.attributes
+                0x00000363       0x1b c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000037e       0x2d c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000003ab       0x2d c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x000003d8       0x2d c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000405       0x2d c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+
+.debug_frame    0x00000000     0x2d80
+ .debug_frame   0x00000000      0x294 ..\obj\dmd.o
+ .debug_frame   0x00000294      0xe2c ..\obj\stm32f10x_tim.o
+ .debug_frame   0x000010c0       0x78 ..\obj\stm32f10x_dbgmcu.o
+ .debug_frame   0x00001138       0x98 ..\obj\system_stm32f10x.o
+ .debug_frame   0x000011d0       0x4c ..\obj\startup_stm32f10x_md.o
+ .debug_frame   0x0000121c      0x2d0 ..\obj\stm32f10x_gpio.o
+ .debug_frame   0x000014ec      0x220 ..\obj\main.o
+ .debug_frame   0x0000170c       0x38 ..\obj\font.o
+ .debug_frame   0x00001744      0x4f4 ..\obj\stm32f10x_rcc.o
+ .debug_frame   0x00001c38      0x14c ..\obj\gpio.o
+ .debug_frame   0x00001d84      0x4e0 ..\obj\tasks.o
+ .debug_frame   0x00002264      0x490 ..\obj\stm32f10x_usart.o
+ .debug_frame   0x000026f4       0xd8 ..\obj\list.o
+ .debug_frame   0x000027cc      0x174 ..\obj\port.o
+ .debug_frame   0x00002940      0x1c8 ..\obj\stm32f10x_dma.o
+ .debug_frame   0x00002b08       0xe0 ..\obj\dma.o
+ .debug_frame   0x00002be8       0xf0 ..\obj\stm32f10x_iwdg.o
+ .debug_frame   0x00002cd8       0x34 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x00002d0c       0x20 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .debug_frame   0x00002d2c       0x20 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x00002d4c       0x34 c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)

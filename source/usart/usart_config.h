@@ -1,0 +1,45 @@
+
+
+#include "stm32f4xx.h"
+#include "stm32f4xx_gpio.h"
+
+#define USATR1_TX_PORT GPIOA
+#define USATR1_RX_PORT GPIOA
+#define USART1_TX_PIN GPIO_Pin_9
+#define USART1_RX_PIN GPIO_Pin_10
+
+
+#define USATR2_TX_PORT GPIOA
+#define USATR2_RX_PORT GPIOA
+#define USART2_TX_PIN GPIO_Pin_2
+#define USART2_RX_PIN GPIO_Pin_3
+
+
+#define USATR3_TX_PORT GPIOB
+#define USATR3_RX_PORT GPIOB
+#define USART3_TX_PIN GPIO_Pin_10
+#define USART3_RX_PIN GPIO_Pin_11
+
+
+#define USATR4_TX_PORT GPIOA
+#define USATR4_RX_PORT GPIOA
+#define USART4_TX_PIN GPIO_Pin_0
+#define USART4_RX_PIN GPIO_Pin_1
+
+
+#define USATR5_TX_PORT GPIOC
+#define USATR5_RX_PORT GPIOD
+#define USART5_TX_PIN GPIO_Pin_12
+#define USART5_RX_PIN GPIO_Pin_2
+
+
+#define USATR6_TX_PORT GPIOC
+#define USATR6_RX_PORT GPIOC
+#define USART6_TX_PIN GPIO_Pin_6
+#define USART6_RX_PIN GPIO_Pin_7
+
+
+// define the priority level for each interrupt.
+#define INTERRUPT_PRIORITY_USART 	6
+#define INTERRUPT_PRIORITY_USART1 	6
+#define INTERRUPT_PRIORITY_USART2	6

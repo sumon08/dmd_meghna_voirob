@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=display.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\display -TC:\CooCox\CoIDE\configuration\ProgramData\display/arm-gcc-link.ld -g">
+      <target file="display.elf" lastModified="16244967577">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="161fc63a07e"/>
+         <source file="..\obj\dmd.o" lastModified="161fc85df93"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="161fc63a1de"/>
+         <source file="..\obj\stm32f10x_dbgmcu.o" lastModified="161fc63a25d"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="161fc63a2ed"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="161fc63a3bc"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="161fc63a40f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="161fc63a483"/>
+         <source file="..\obj\main.o" lastModified="1622957c52f"/>
+         <source file="..\obj\font.o" lastModified="161fc63a5f7"/>
+         <source file="..\obj\timers.o" lastModified="161fc63a666"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="161fc63a6d4"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="161fc63a750"/>
+         <source file="..\obj\gpio.o" lastModified="161fc63a7c9"/>
+         <source file="..\obj\tasks.o" lastModified="161fc63a869"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="161fc63a8e7"/>
+         <source file="..\obj\list.o" lastModified="161fc63a958"/>
+         <source file="..\obj\port.o" lastModified="161fc63a9ba"/>
+         <source file="..\obj\queue.o" lastModified="161fc63aa4c"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="161fc63aabd"/>
+         <source file="..\obj\croutine.o" lastModified="161fc63ab17"/>
+         <source file="..\obj\event_groups.o" lastModified="161fc63ab8c"/>
+         <source file="..\obj\heap_1.o" lastModified="161fc63abff"/>
+         <source file="..\obj\dma.o" lastModified="162449672cd"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="161fc63ad00"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="161fc63ad64"/>
+      </target>
+   </processor>
+</history>
